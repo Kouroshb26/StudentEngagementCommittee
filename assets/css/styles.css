@@ -1,22 +1,22 @@
 h1 {
     font-size: 4rem;
-    font-family: "Roboto";
+   font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 h2 {
     font-weight: bold;
-    font-family: "Roboto";
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 h3 {
-    font-family: "Roboto";
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 p,ul,ol{
     font-size: 1.75rem;
-    font-family: "Roboto";
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
@@ -92,7 +92,9 @@ ul.nav a:link,ul.nav a:visited{
     text-decoration: none;
 }
 
-
+a{
+    color: blue;
+}
 a:hover.whitebackground, a:active.whitebackground,#blogcontainer .blog-item:nth-child(odd) a:hover,#blogcontainer .blog-item:nth-child(even) a:active{
     color:#551A8B;
 }
@@ -129,7 +131,7 @@ img.parents {
 .executive h3{
     margin: 0.5em;
     color: black;
-    font-family: "Roboto";
+    font-family: 'Open Sans', sans-serif;
 }
 
 .executive p{
@@ -244,3 +246,52 @@ span{
     color: red;
 }
 
+.circle {
+    background: red;
+    border-radius: 200px;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 200px;
+    display: table;
+    margin: 20px auto;
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 4rem;
+}
+
+#team-red{
+    background:red;
+}
+#team-blue{
+    background:blue;
+}
+#team-black{
+    background:black;
+}
+#team-green{
+    background:green;
+}
+#developer{
+    margin: auto;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.tips p,.tips h3,.tips h2{
+    text-align: left;
+}
+
+.tips h3{
+    font-weight: bold;
+}
+.tips h2{
+    color: #663096;
+}
