@@ -92,19 +92,25 @@ ul.nav a:link,ul.nav a:visited{
     text-decoration: none;
 }
 
-a{
-    color: blue;
+
+
+a,#blogcontainer .blog-item:nth-child(odd) a{
+    color: #551A8B;
 }
-a:hover.whitebackground, a:active.whitebackground,#blogcontainer .blog-item:nth-child(odd) a:hover,#blogcontainer .blog-item:nth-child(even) a:active{
-    color:#551A8B;
+
+.coloredcontainer a,a:hover,#blogcontainer .blog-item:nth-child(odd) a:hover,#blogcontainer .blog-item:nth-child(even) a{
+    color:#ff0000;
+    text-decoration: none;
 }
-a:link.redbackground,a:visited.redbackground,#blogcontainer .blog-item:nth-child(even) a:link, #blogcontainer .blog-item:nth-child(even) a:visited{
-    color:red;
-    display: inline-block;
+
+.coloredcontainer a:hover,#blogcontainer .blog-item:nth-child(even) a:hover{
+    color:white;
+    text-decoration: none;
 }
- a:hover.redbackground, a:active.redbackground,#blogcontainer .blog-item:nth-child(even) a:hover,#blogcontainer .blog-item:nth-child(even) a:active{
-    color: white;
-}
+
+
+
+
 
 
 
@@ -145,7 +151,7 @@ img.parents {
 hr {
     margin: 4em auto;
     height: 2px;
-    background: #D00000;
+    background: #551A8B;
 }
 
 
@@ -197,7 +203,7 @@ Blog Content
 
 
 #blogcontainer .blog-item:nth-child(even){
-    background-color: #D00000;
+    background-color: #551A8B;
     color: white;
 }
 
@@ -286,5 +292,5 @@ span{
     font-weight: bold;
 }
 .tips h2{
-    color: #663096;
+    color: #551A8B;
 }
